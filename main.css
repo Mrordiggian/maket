@@ -27,9 +27,18 @@ body {
         justify-content: flex-start;
         flex-direction: column;
     }
-    
+    nav{
+         
+        min-width: 0 !important;
+        
+      }
     .logo {
         order: -1;
+    }
+    .counteiner__menu {
+        
+        margin-left: 0;
+        
     }
     
     
