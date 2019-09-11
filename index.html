@@ -12,63 +12,54 @@
 </head>
 <body>
     <header>
-        <div class="countaner box_one">
-            <form action="" method="get" id="searchform">
-                <button type="submit"><i class="fas fa-search"></i></button>
-                <input type="text" placeholder="Search" >
-            </form>
-            <div class="logo"></div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#"><i class="fas fa-heart"></i>Favorite</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fas fa-bars"></i>Compare</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fas fa-shopping-cart"></i>Cart</a>
-                    </li>
-                </ul>
-            <div class="ava"></div>
-            </nav>
-        </div>
-        <div class="countaner box_two">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Electronics</a>
-                    </li>
-                    <li>
-                        <a href="#">Apliances</a>
-                    </li>
-                    <li>
-                        <a href="#">Childen’s goods</a>
-                    </li>
-                    <li>
-                        <a href="#">Repairs</a>
-                    </li>
-                    <li>
-                        <a href="#">Clothes</a>
-                    </li>
-                    <li>
-                        <a href="#">Footwear</a>
+        <section class="page">
+            <div class="page__header">
+                <form action="" method="get" class="searchform">
+                    <button type="submit" class="searchform__button"><i class="fas fa-search"></i></button>
+                    <input type="text" placeholder="Search" class="searchform__input" >
+                </form>
+                <div class="logo"></div>
+                <nav>
+                    <ul class="list">
+                        <li class="list__item">
+                            <a href="#"><i class="fas fa-heart"></i>Favorite</a>
+                        </li >
+                        <li class="list__item">
+                            <a href="#"><i class="fas fa-bars"></i>Compare</a>
                         </li>
-                    <li>
-                        <a href="#">Beauti</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+                        <li class="list__item">
+                            <a href="#"><i class="fas fa-shopping-cart"></i>Cart</a>
+                        </li>
+                    </ul>
+                    <div class="ava"></div>
+                </nav>
+            </div>
+        </section>
+        <section class="page">
+                <div class="page__menu">
+                    <nav>
+                        <ul class="list">
+                            <li class="list__item"><a href="#">Electronics</a></li>
+                            <li class="list__item"><a href="#">Apliances</a></li>
+                            <li class="list__item"><a href="#">Childen’s goods</a></li>
+                            <li class="list__item"><a href="#">Repairs</a></li>
+                            <li class="list__item"><a href="#">Clothes</a></li>
+                            <li class="list__item"><a href="#">Footwear</a></li>
+                            <li class="list__item"><a href="#">Beauti</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </section>
         
     </header>
-    <section id="main">
-            <div class="counteiner__menu">
+    <section class="page">
+        <div class="page__main">
+            <div class="sidebar">
                 <h1><i class="fas fa-eye"></i>Electronics</h1>
                 <nav>
                     <ul>
                         <li><a href="#"><i class="fas fa-mobile-alt"></i>Phones</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Cell phones</a></li>
                                 <li><a href="#">Smart watch</a></li>
                                 <li><a href="#">Straps for smart watches</a></li>
@@ -77,7 +68,7 @@
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-headphones"></i>Portable-Technology</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Headphones & Headsets</a></li>
                                 <li><a href="#">Virtual reality glasses</a></li>
                                 <li><a href="#">Tablets</a></li>
@@ -85,7 +76,7 @@
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-video"></i>Audio and video equipment</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Televisionss</a></li>
                                 <li><a href="#">Audio equipment</a></li>
                                 <li><a href="#">TV tuners</a></li>
@@ -94,7 +85,7 @@
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-camera"></i>Photo and video camerass</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Cameras</a></li>
                                 <li><a href="#">Objects</a></li>
                                 <li><a href="#">Camcorders</a></li>
@@ -102,13 +93,13 @@
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-map-marker-alt"></i>GPS navigation</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Navigators</a></li>
                                 <li><a href="#">Trackers</a></li>
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-gamepad"></i>Gaming consoles</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Steering wheels and gamep</a></li>
                                 <li><a href="#">Accessories</a></li>
                                 <li><a href="#">Games for consoles</a></li>
@@ -116,7 +107,7 @@
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-car"></i>Technics for cars</a>
-                            <ul>
+                            <ul class="nav--padding">
                                 <li><a href="#">Videorecorders</a></li>
                                 <li><a href="#">Car Receivers</a></li>
                                 <li><a href="#">Autoacoustics</a></li>
@@ -127,8 +118,8 @@
                     </ul>
                 </nav>
             </div>
-            <div id="sedebar">
-                <div class="countainer">
+            <div class="aside">
+                <div class="aside__block">
                     <div class="head_block">
                     <h1><i class="fas fa-folder"></i>Articles and collections</h1>
                             <ul>
@@ -156,7 +147,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="countainer">
+                <div class="aside__block">
                         <div class="head_block">
                         <h1><i class="fas fa-bookmark"></i></i>Popular Brands</h1>                            
                             <ul>
@@ -199,7 +190,7 @@
                         </div>
                 </div>
                 
-                <div class="countainer">
+                <div class="aside__block">
                         <div class="head_block">
                             <h1><i class="fas fa-bookmark"></i></i>Popular Brands</h1>
                             <ul>
@@ -274,6 +265,7 @@
                         <div class="show__more"><a href="#">Show More </a></div>
                 </div>
             </div>
+        </div>
     </section>
     <footer>
         <section class="countainer_four">
@@ -320,12 +312,12 @@
             </li>
         </ul>
     </section>
-    <section class="countaner box_three">
+    <section class="box_three">
         <nav>
-        <ul>
-            <li><a href="#">Mobile version</a></li>
-            <li><a href="#">Statistics</a></li>
-            <li><a href="#">Advertising</a></li>
+        <ul class="list">
+            <li class="list__item"><a href="#">Mobile version</a></li>
+            <li class="list__item"><a href="#">Statistics</a></li>
+            <li class="list__item"><a href="#">Advertising</a></li>
         </ul>
     </nav>
     </section>
